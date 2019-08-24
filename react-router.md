@@ -5,7 +5,7 @@
 
 ## Routers组件
 
-1. <\BrowserRouter> 响应
+1. <BrowserRouter\> 响应
 2. HashRouter 静态资源
 3. StaticRouter
 
