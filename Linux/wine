@@ -1,0 +1,2 @@
+将wine设置为中文  alias wine='env LANG=zh_CN.UTF-8 wine'
+ 

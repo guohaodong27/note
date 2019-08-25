@@ -1,0 +1,9 @@
+1. 输出语句
+
+|命令|作用|
+|:---|:--|
+|alert()|提示框|
+|document.write()|body|
+|console.log()|控制台|
+
+> script标签引入文件后不能编写内部代码

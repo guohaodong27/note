@@ -1,0 +1,37 @@
+# Java Design pattern
+
+## creational pattern
+### [factory method pattern]()
+1. **advantage**
+>1.  allow the sub-class to choose the type of object to cteate
+>2. **loose-coupling**  the codeinteracts solely with the resultant interface or abstract class, so that it will work with any calsses that implement that interface or that extends that abstract class.
+>3. in other word ,it's a kind of interface oriented programing(IOP)
+
+2. **usage**
+> factory pattern is used when we hava a super class with muitl-subclass ,we need to return one of the sub-class.The pattern take out a responsibility of instantation of a class from client program to the factory class.
+3. **how to implement factory design**
+	1. superClass // can be interface ,abstract class ,normal java class
+	2. sub Class // all sub-class extend or inplements superClass
+	3. factory class // a method can generate sub-class by inputting a type(usually be a String)
+### [abstract factory pattern]()
+1. **advantage**
+> 1. it provide a approach to code for interface rether than inplementation
+> 2. I would to call it *factories of factories* rather than call it *abstract factories*
+> 3. It is robust and avoid conditional logic of Factory pattern(so ,it isn't a simple Switch) 
+
+2. ** usage**
+> 1. when the system need to be independent of how its object create
+> 2. when the family of related objects has to be use together 
+>3. when you want to provide a library of objects that does not show implementations and only reveals interface
+>4. when the system needs to be configured with one of a mutilple family of objects
+
+3. **how to implement factory design**
+	1. **AbstractFactory**->**sub-factory**,**superClass**->**subClass**.
+	2. similarly,sub-factory and superClass can be interface abstract Class and normal java class.subClass is a normal java class
+	3. **FatoryCreator** which can return a sub-factory.
+	4. sub-factory can call itself method to return a sub-Class
+
+### singleton pattern
+### prototype pattern
+### builder pattern
+### object pool pattern
