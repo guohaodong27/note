@@ -1,5 +1,5 @@
 # Git使用
 
-## 解决冲突
-
-1. 
+## NOTE
+> 1. fatal: refusing to merge unrelated histories
+> A: --allow-unrelated-histories
